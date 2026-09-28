@@ -1,24 +1,23 @@
-# Core
-streamlit==1.38.0
-pandas==2.2.3
-numpy==1.26.4
-scikit-learn==1.5.2
-plotly==5.24.1
+# ---------- Núcleo ----------
+streamlit>=1.40
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+plotly>=5.24
 
-# Arquivos
-openpyxl==3.1.5
-xlrd==2.0.1
+# ---------- Leitura de arquivos ----------
+openpyxl>=3.1
 
-# UCI
-ucimlrepo==0.0.7
+# ---------- Fonte de dados UCI ----------
+ucimlrepo>=0.0.7
 
-# Boosting externo
-xgboost==2.1.1
-lightgbm==4.5.0
-catboost==1.2.7
+# ---------- Bibliotecas de boosting externas ----------
+xgboost>=2.1
+lightgbm>=4.5
+catboost>=1.2
 
-# Clustering extra
-hdbscan==0.8.40
+# ---------- Agrupamento extra ----------
+hdbscan>=0.8
 
-# SOM (Mapa de Kohonen)
-minisom==2.3.1
+# ---------- Mapa de Kohonen (SOM) ----------
+minisom>=2.3
