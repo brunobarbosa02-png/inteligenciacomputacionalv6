@@ -35,13 +35,13 @@ from sklearn.cluster import (
     AgglomerativeClustering,
     Birch,
     DBSCAN,
-    GaussianMixture,
     KMeans,
     MeanShift,
     MiniBatchKMeans,
     OPTICS,
     SpectralClustering,
 )
+from sklearn.mixture import GaussianMixture    
 from sklearn.decomposition import PCA
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.ensemble import (
