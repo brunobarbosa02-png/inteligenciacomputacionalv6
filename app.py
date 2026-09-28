@@ -41,7 +41,7 @@ from sklearn.cluster import (
     OPTICS,
     SpectralClustering,
 )
-from sklearn.mixture import GaussianMixture    
+from sklearn.mixture import GaussianMixture, BayesianGaussianMixture   
 from sklearn.decomposition import PCA
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.ensemble import (
